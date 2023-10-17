@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiKey = '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';
+const apiKey = 'Generate from Open AI'; // give your own API
 const apiUrl = 'https://api.openai.com/v1/engines/davinci/completions';
 
 const searchImages = async (text) => {
