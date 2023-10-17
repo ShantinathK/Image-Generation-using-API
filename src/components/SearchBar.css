@@ -1,13 +1,5 @@
 .search-Bar{
-    margin: 20px;
-    
-}
-
-#content{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    height: 500px;
+    margin: 1.3%;
     /* background-image: url('../Images/bg.jpg'); */
     background-image: url('../Images/Featured-VR-AR-Technologies.webp');
     background-size: cover;
@@ -15,7 +7,15 @@
     filter: contrast(100px);
     filter: saturate(30px);
     background-position-y: 30%;
+    
+}
 
+#content{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 
 
