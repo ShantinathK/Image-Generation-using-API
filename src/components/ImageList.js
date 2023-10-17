@@ -7,6 +7,10 @@ function ImageList({images}){
         return <ImageShow image={image} />
 
     });
+    // const renderedImages = (images)=>
+    // {
+    //     return <ImageShow image={images} />
+    // }
 
     return(
         <div style={{justifyContent: 'center'}}>{renderedImages}</div>
