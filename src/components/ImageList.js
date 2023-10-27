@@ -3,7 +3,7 @@ import "../../node_modules/bulma/css/bulma.css"
 
 function ImageList({images}){
     const renderedImages = images.map( (image)=>{
-        console.log(image);
+        console.log(images[0].query);
         return <ImageShow image={image} />
 
     });

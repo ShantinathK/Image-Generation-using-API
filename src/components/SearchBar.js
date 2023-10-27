@@ -5,7 +5,7 @@ import '../../node_modules/bulma/css/bulma.css';
 // import Image from "../Images/bg.jpg";
 
 
-function SearchBar({ onSubmit }){
+function SearchBar({ onSubmit}){
     const[term, setTerm] = useState('')
     
 

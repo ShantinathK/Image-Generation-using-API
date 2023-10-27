@@ -1,8 +1,9 @@
 import axios from 'axios';
 
-const searchImages = async(event) => {
 
-        const response = await axios.get('https://api.unsplash.com/search/photos', {
+const searchImages = async(event, page) => {
+        
+        const response = await axios.get(`https://api.unsplash.com/search/photos?page=${page}`, {
             headers: {
                 Authorization: 'Client-ID SvHl0MFp5Fd_bhB343FhkifkuZgRowljF2FQG7x8fcs'
             },
@@ -10,9 +11,10 @@ const searchImages = async(event) => {
                 query: event
                 },
         });
-        
+        page++;
         // console.log(response.data.results[0].urls);
         const b = response.data.results;
+        console.log(response.data);
         return b;
 
         // try {

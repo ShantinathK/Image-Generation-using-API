@@ -5,7 +5,7 @@ import downloadicon from '../Images/download.svg';
 
 
 function ImageShow({image}){
-    console.log(image)
+    // console.log(image)
 
    
     const downloadImage = () => {
